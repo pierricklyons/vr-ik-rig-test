@@ -324,7 +324,7 @@
                     "path": "<XRController>{LeftHand}/Primary2DAxis",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller",
+                    "groups": "Generic XR Controller;Continuous Move",
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -414,6 +414,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "LeftSecondaryPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85d078a2-a6b0-4ecc-9659-521add26fff2",
+                    "path": "<XRController>{LeftHand}/Primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Continuous Move",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
